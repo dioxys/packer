@@ -1,0 +1,3 @@
+packer-cache/*
+packer-output/*
+.DS_Store
