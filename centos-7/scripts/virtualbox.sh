@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -ex
 
 mkdir /tmp/isomount
 mount -t iso9660 -o loop /home/vagrant/VBoxGuestAdditions.iso /tmp/isomount
