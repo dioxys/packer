@@ -1,4 +1,4 @@
-#!/bin/bash -eux
+#!/bin/bash -ex
 
 install -v -o vagrant -g vagrant -m 0700 -d /home/vagrant/.ssh
 curl -o /home/vagrant/.ssh/authorized_keys -kL 'https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub'

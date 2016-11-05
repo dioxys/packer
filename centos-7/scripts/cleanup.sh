@@ -1,4 +1,4 @@
-#!/bin/bash -eux
+#!/bin/bash -ex
 
 # Remove Linux headers
 yum -y remove gcc kernel-devel kernel-headers perl cpp

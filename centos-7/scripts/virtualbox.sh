@@ -1,6 +1,7 @@
-#!/bin/bash -eux
+#!/bin/bash
 
-mount -o loop /home/vagrant/VBoxGuestAdditions.iso /mnt
-/mnt/VBoxLinuxAdditions.run
-umount /mnt
-rm -rf VBoxGuestAdditions.iso
+mkdir /tmp/isomount
+mount -t iso9660 -o loop /home/vagrant/VBoxGuestAdditions.iso /tmp/isomount
+/tmp/isomount/VBoxLinuxAdditions.run
+umount /tmp/isomount
+rm -rf /tmp/isomount /home/vagrant/VBoxGuestAdditions.iso

@@ -3,7 +3,6 @@
     {
       "vm_name": "centos-7",
       "guest_os_type": "RedHat_64",
-      "guest_additions_mode": "attach",
       "iso_checksum_type": "sha256",
       "iso_checksum": "9ed9ffb5d89ab8cca834afce354daa70a21dcb410f58287d6316259ff89758f5",
       "iso_url": "http://mirror.zetup.net/CentOS/7/isos/x86_64/CentOS-7-x86_64-NetInstall-1511.iso",
